@@ -1,0 +1,11 @@
+[package]
+name = "nesoxide"
+version = "0.1.0"
+authors = ["Dustin Riley <dustin@derpenstiltskin.com>"]
+license = "MIT"
+readme = "../README.md"
+description = "NES emulator written in Rust"
+homepage = "https://github.com/derpenstiltskin/nesoxide"
+repository = "https://github.com/derpenstiltskin/nesoxide"
+keywords = ["nes", "emulator"]
+edition = "2021"
