@@ -1,9 +1,19 @@
 [package]
 name = "nesoxide"
 version = "0.1.0"
-authors = [ "Dustin Riley <dustin@derpenstiltskin.com>" ]
+authors = ["Dustin Riley <dustin@derpenstiltskin.com>"]
+license = "MIT"
+readme = "README.md"
+description = "NES emulator written in Rust"
+homepage = "https://github.com/derpenstiltskin/nesoxide"
+repository = "https://github.com/derpenstiltskin/nesoxide"
+keywords = ["nes", "emulator"]
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[workspace]
+members = [
+    "nesoxide-core"
+]
 
 [dependencies]
+nesoxide-core = { path = "nesoxide-core", version = "0.1.0" }

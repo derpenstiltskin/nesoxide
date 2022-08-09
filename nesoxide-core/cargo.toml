@@ -1,5 +1,5 @@
 [package]
-name = "nesoxide"
+name = "nesoxide-core"
 version = "0.1.0"
 authors = ["Dustin Riley <dustin@derpenstiltskin.com>"]
 license = "MIT"
@@ -9,3 +9,8 @@ homepage = "https://github.com/derpenstiltskin/nesoxide"
 repository = "https://github.com/derpenstiltskin/nesoxide"
 keywords = ["nes", "emulator"]
 edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+byteorder = "1.4"
+bitvec = "1.0"
